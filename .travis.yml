@@ -5,7 +5,7 @@ install: true
 
 deploy:
   provider: releases
-  api_key: 987b96f648ebb6dc8f6f4b857e20a106a4fb8483
+  api_key: "987b96f648ebb6dc8f6f4b857e20a106a4fb8483"
   file_glob: true
   file: "target/release-1.0-SNAPSHOT.jar"
   skip_cleanup: true
