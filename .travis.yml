@@ -2,7 +2,11 @@ language: java
 jdk: oraclejdk8
 install: true
 sudo: false
-script: mvn clean verify
+script: 
+  - mvn clean verify
+  - git add --all
+  - git commit -m "Uploading from Travis CI"
+  - git push
 deploy:
   provider: releases
   api_key:
