@@ -1,16 +1,9 @@
 language: java
-
 jdk: oraclejdk8
 install: true
-
 deploy:
   provider: releases
-  api_key: "987b96f648ebb6dc8f6f4b857e20a106a4fb8483"
-  github_token: "987b96f648ebb6dc8f6f4b857e20a106a4fb8483"
-  file_glob: true
-  file: "target/release-1.0-SNAPSHOT.jar"
-  skip_cleanup: true
+  api_key: c66228ffa840dfdb3937d5cb59fbdb4667d00d5c
+  file: target/release-1.0-SNAPSHOT.jar
   on:
-    tags: false
-    all_branches: true
     repo: yogonza524/release-ci
