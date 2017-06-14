@@ -9,4 +9,4 @@ deploy:
   on:
     repo: yogonza524/release-ci
     all_branches: true
-    tags: false
+    tags: true
