@@ -8,3 +8,4 @@ deploy:
   file: target/release-1.0-SNAPSHOT.jar
   on:
     repo: yogonza524/release-ci
+    all_branches: true
