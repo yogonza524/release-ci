@@ -4,8 +4,6 @@ install: true
 sudo: false
 script: 
   - mvn clean verify
-  - git config --global user.email "yogonza524@gmail.com"
-  - git config --global user.name "Gonza"
 deploy:
   provider: releases
   api_key:
@@ -17,5 +15,4 @@ deploy:
     tags: true
   overwrite: true
   skip_cleanup: true
-  cache:
-    - target
+  
