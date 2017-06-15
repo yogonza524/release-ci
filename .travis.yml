@@ -4,7 +4,6 @@ install: true
 sudo: false
 script: 
   - mvn clean verify
-  - git status
 deploy:
   provider: releases
   api_key:
