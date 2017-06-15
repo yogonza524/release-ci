@@ -6,9 +6,6 @@ script:
   - mvn clean verify
   - git config --global user.email "yogonza524@gmail.com"
   - git config --global user.name "Gonza"
-  - git add --all
-  - git commit -m "Uploading from Travis CI"
-  - git push
 deploy:
   provider: releases
   api_key:
