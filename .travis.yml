@@ -10,7 +10,7 @@ deploy:
   provider: releases
   api_key:
     secure: xFiSC3w3SHqvNh97O1m62dfOYYKxmXCLaJJnFP+YnN0sfHY/PiJ4ytA/mA7yLfVyHYiMatuk9EIaHxwEXkHbXSWwhtoxou/mtTZDPZ0Z/CwwPu9W04KtS9i+5JOTofh7Z8IwutiXMKe0Bch5qGsRZQFaopsNCMRdlkY/03Lhl2FLdHZPlO8Uw/EY/XWKpatLsfn+vjVWHNCFHLP7VpqbTMBzgQI8NwGmH7HmEqz63QuzD/COAS+mp3rKyX6xIpp9j5vTVxCBk4mA6k836gRvjaVYylPoMHwvfADoUyUUQbMp0Z3glubaSDWkYjiy9DGvtbiLyKd3KZ0l1sjmax7fC5GhwebpU90bRz181eDbQPt+G/lsD6Q8VPy/cRezAHrPgj6OKiYeCHkvAclB9TLPk/plxe9Cpxp9pwDG1ihkZXyiZhfknuizd5P1ay5BnPMnIMKpMfV0pmnu7OBXT+3o92j/56DSjUEt1D1Yq4UkChuXyLxnGg/4Rq9qQC7cmhp5LTV2hBK7IWeZR/jUA7mxxjL1t1uW12FZrMl/ST8YJdS9Fti6r7WY9JRyN3qAWS0DAXcLFdnU65MrXxGwYgFJYAmEpihTHepS8TsgeKT2Fk1YvK4xkZtGh+q2BQKUSKLL99WpkMdBK+H3w4Wq4bDnivGu3BB3oh+tJPSYDk1sXUU=
-  file: target/release-1.0-SNAPSHOT.jar
+  file: /home/travis/build/yogonza524/release-ci/target/release-1.0-SNAPSHOT-jar-with-dependencies.jar
   on:
     repo: yogonza524/release-ci
     all_branches: true
